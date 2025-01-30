@@ -60,7 +60,7 @@
                     </div>
                
                   </div>
-                  <a class=" text-xl eb"><img class="bg-slate-500" src="./images/logo.png" alt=""></a>
+                  <a class=" text-xl eb"><img src="./images/logo2.png" alt=""></a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1 text-[#707070] font-semibold ">
@@ -249,14 +249,14 @@
        </section>
 
        <!-- contact -->
-        <section class="container mx-auto  grid grid-cols-1">
+        <section class="container mx-auto ">
 <div  class=" text-center">
   <h3 class="font-bold text-[40px] text-[#414040] eb mt-30">
     Contact with us
   </h3>
   <p class="font-medium mt-6 text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
 </div>
-<div class="flex gap-9">
+<div class="flex gap-9 flex-col mx-auto grid grid-cols-2">
   <!-- cards -->
   <div class="grid grid-cols-2 mt-16 gap-4">
     <!-- cards-1 -->
@@ -341,5 +341,51 @@
         </section>
     
      </main>
+     <!-- footer -->
+     <footer class="footer text-[#CFCFCF] bg-black bg-base-200 text-base-content p-10 container mx-auto ">
+      <div class="flex mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 ">
+        <nav>
+          <img  src="./images/logo.png" alt="">
+          <p class="w-64 pt-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        </nav>
+        <nav class="text-center">
+          <h6 class="footer-title font-bold text-white text-3xl eb mr-6">Usefull Links</h6>
+          <ul>
+            <li class="mt-12"><a class="link link-hover">Home</a></li>
+            <li class="mt-4"><a class="link link-hover">About us</a></li>
+            <li class="mt-4"><a class="link link-hover">Cases</a></li>
+            <li class="mt-4"><a class="link link-hover">Blogs</a></li>
+            <li class="mt-4"><a class="link link-hover">Contact us</a></li>
+          </ul>
+        </nav>
+        <nav class="text-center">
+          <h6 class="footer-title font-bold text-3xl text-white eb mr-6">Contact Now</h6>
+       <ul>
+        <li class="mt-12">555 4th 5t NW, Washington <br>
+          DC 20530, United States</li>
+        <li class="mt-4">+88 01750 000 000 <br>
+          +88 01750 000 000</li>
+        <li class="mt-4">info@gmail.com <br>
+          info@gmail.com</li>
+       </ul>
+        </nav>
+        <form class="text-center">
+          <h6 class="footer-title font-bold text-3xl eb text-white ">Subscribe</h6>
+          <p class="mt-12 ">Subscribe for our  <br> latest & Articles. <br> We Won’t Give You Spam Mails</p>
+          <fieldset class="form-control w-80">
+            <label class="label">
+              <span class="label-text">Enter your email address</span>
+            </label>
+            <div class="join">
+              <input
+                type="text"
+                placeholder="username@site.com"
+                class="input input-bordered join-item  " />
+              <button class="btn bg-btn-primary join-item">Subscribe</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </footer>
 </body>
 </html>
